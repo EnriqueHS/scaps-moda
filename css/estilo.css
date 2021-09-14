@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative|Montserrat");
+body {
+    font-family: "Montserrat";
+}
+h1 {
+    font: 2rem "Cinzel Decorative", sans-serif;
+}
+
+.navbar-brand {
+    font: 1.5rem "Cinzel Decorative", cursive;
+}
+.navbar-brand img {
+    width: 1em;
+    height: 1em;
+}
+
+.carousel-item {
+    max-height: 650px;
+}
+
+.img-producto {
+    min-height: 300px;
+    padding-top: 1rem;
+}
+
+.footer {
+    background-color: #1f2225;
+    padding: 1.5em;
+    text-align: center;
+    color: white;
+    vertical-align: center;
+}
+/*****video responsive*****/
+.video-contenedor {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /*para relacion de pantalla 16:9 padding  56.25%;  y   para 4:3 es 75% **/
+}
+.video-contenedor iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    /*height: 56.25%;*/
+}
+/*fin video fluido*/
