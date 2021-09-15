@@ -2,8 +2,9 @@
 body {
     font-family: "Montserrat";
 }
-h1 {
+h1,h2 {
     font: 2rem "Cinzel Decorative", sans-serif;
+    padding: 2em 0 0 0;
 }
 
 .navbar-brand {
@@ -36,6 +37,7 @@ h1 {
     height: 0;
     position: relative;
     padding-bottom: 56.25%; /*para relacion de pantalla 16:9 padding  56.25%;  y   para 4:3 es 75% **/
+    margin-bottom: 5em;
 }
 .video-contenedor iframe {
     position: absolute;
@@ -45,3 +47,8 @@ h1 {
     /*height: 56.25%;*/
 }
 /*fin video fluido*/
+
+
+
+
+
